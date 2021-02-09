@@ -12,7 +12,7 @@ El primer paso fue crear la variable *mes*, la cual almacenaría
 el mes ingresado. Acatando las instrucciones, le asigné 10 como
 su valor predeterminado.
 
-El tercer paso fue crear el susodicho **switch**, con la variable
+El segundo paso fue crear el susodicho **switch**, con la variable
 *mes* como controlador. Fue en este punto cuando comenzó mi 
 enfrentamiento con el segundo problema: todos los posibles
 resultados tienen múltiples condiciones (tanto 12 como 1 y 2 dan
@@ -44,8 +44,8 @@ Mis sospechas fueron confirmadas. Creé los cuatro tríos de **cases**
 con los tres meses de cada estación, respectivamente. El truco
 reside en dejar vacíos los primeros dos, incluso sin break, para
 luego añadir la impresión del mensaje en el tercer mes, con break
-incluido. Retomando el ejemplo anterior, los **cases** 12 y 1 se encuen-
-tran completamente vacíos y uno después del otro, seguidos por el
+incluido. Retomando el ejemplo anterior, los **cases** 12 y 1 se 
+encuentran completamente vacíos y uno después del otro, seguidos por el
 **case** 2, el cual incluye el mensaje indicando que es invierno, mas
 el break. De esta manera, los **cases** o meses 12, 1 y 2 imprimen "¡Es
 invierno!" Repetí el proceso con el resto de estaciones y meses.
@@ -53,9 +53,9 @@ invierno!" Repetí el proceso con el resto de estaciones y meses.
 
 - ¡Ja, ja, ja, ja, soy un genio! Hora de enviar esto. -
 
-Fue entonces cuando yo, el genio, me di cuenta de que casi olvido
-agregar al final mi nombre y  mi carné, tal y como se me había
-solicitado.
+Fue entonces cuando yo, el genio, me di cuenta de que casi olvido el
+tercer y  último paso: agregar al final mi nombre y  mi carné, tal y
+como se me había solicitado.
 
 - Oh, cierto. -
 
