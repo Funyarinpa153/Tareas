@@ -1,4 +1,4 @@
-Solución de la Actividad 2: Estaciones del año
+# **Solución de la Actividad 2: Estaciones del año**
 
 Me estaba enfrentando a la ambivalencia de dos alternativas para 
 la solución de la actividad: **if-else** y **switch-case**. Una vez
